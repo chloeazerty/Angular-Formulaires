@@ -14,7 +14,8 @@ export class SignUpComponent implements OnInit {
 
   onSubmit() {
     // form submitted
-    console.log(this.model);
+    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.model)
+    )
   }
 
   ngOnInit(): void {
